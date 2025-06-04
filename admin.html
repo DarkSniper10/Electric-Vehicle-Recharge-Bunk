@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>EV Admin Dashboard</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body class="bg-gradient">
+  <div class="container">
+    <h1>Admin Dashboard</h1>
+    <form id="bunkForm">
+      <input type="text" id="bunkName" placeholder="Bunk Name" required />
+      <input type="text" id="address" placeholder="Address" required />
+      <input type="text" id="location" placeholder="Map Location URL" required />
+      <button type="submit">Add Bunk</button>
+    </form>
+    <div id="bunkList"></div>
+  </div>
+  <script src="js/storage.js"></script>
+  <script src="js/admin.js"></script>
+</body>
+</html>
